@@ -1,0 +1,28 @@
+body{
+    background-image: url(COMIDAS.png);
+}
+.txtcomentario {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+  
+.boton{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+    /* Center vertically */
+    /* Optional styles for width and height */
+    height: 10vh;
+    
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}

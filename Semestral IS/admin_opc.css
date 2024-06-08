@@ -1,0 +1,57 @@
+#boton-admin{
+    margin-right: 1%;
+}
+
+body{
+    background-image: url(COMIDAS.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.opciones{
+    background-color: white;
+    border-radius: 7px;
+    width: 270px ;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.tablaComentarios{
+    width: 100% ;
+    max-width: 70%;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 6%;
+    gap: 10px;
+}
+.opcionesContainer{
+    display: flex;
+    
+    gap: 190px;
+}
+.footer {
+    height: max-content;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}

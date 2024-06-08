@@ -1,0 +1,77 @@
+body{
+    background-image: url(COMIDAS.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#boton-admin{
+    margin-right: 1%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos el 100% de la altura de la ventana */
+  }
+  
+.container {
+    flex-direction: row;
+    position: relative;
+    margin-top: 4%;
+    gap: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.opciones {
+    width: 100%;
+    color: rgb(170, 169, 169);
+    padding: 20px;
+}
+
+.tabla.comentarios {
+    flex-grow: 1; /* Permite que la tabla ocupe todo el espacio disponible */
+    width: 100%;
+    background-color: white;
+    border-radius: 7px;
+    border: solid 1px;
+    color: rgb(170, 169, 169);
+    padding: 7px;
+}
+
+
+
+
+.btnRegresar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tablaResultados{
+    margin-top: -5%;
+}
+.btnRegresar a {
+    /* Ajustar el tamaño a tu preferencia */
+    width: 150px;
+    height: 40px;
+    /* Agregar un margen superior para bajar el botón */
+    margin-top: auto; /* Puedes ajustar este valor según sea necesario */
+}
+.footer {
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
+  
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
